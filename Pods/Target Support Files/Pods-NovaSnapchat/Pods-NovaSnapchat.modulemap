@@ -1,0 +1,6 @@
+framework module Pods_NovaSnapchat {
+  umbrella header "Pods-NovaSnapchat-umbrella.h"
+
+  export *
+  module * { export * }
+}

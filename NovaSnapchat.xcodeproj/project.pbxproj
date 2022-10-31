@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		38C47C8629104D3500A05314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C47C8529104D3500A05314 /* AppDelegate.swift */; };
 		38C47C8829104D3500A05314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C47C8729104D3500A05314 /* SceneDelegate.swift */; };
-		38C47C8A29104D3500A05314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C47C8929104D3500A05314 /* ViewController.swift */; };
+		38C47C8A29104D3500A05314 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C47C8929104D3500A05314 /* iniciarSesionViewController.swift */; };
 		38C47C8D29104D3500A05314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C47C8B29104D3500A05314 /* Main.storyboard */; };
 		38C47C8F29104D3900A05314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C47C8E29104D3900A05314 /* Assets.xcassets */; };
 		38C47C9229104D3900A05314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C47C9029104D3900A05314 /* LaunchScreen.storyboard */; };
+		38C47C9C2910521700A05314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38C47C9B2910521600A05314 /* GoogleService-Info.plist */; };
+		38C47C9E291066A100A05314 /* yanfei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C47C9D291066A100A05314 /* yanfei.jpg */; };
+		6339539993BC00F6FD8EBE28 /* Pods_NovaSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76A28C04D24065138A5D7FC /* Pods_NovaSnapchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38C47C8229104D3500A05314 /* NovaSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C47C8529104D3500A05314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C47C8729104D3500A05314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38C47C8929104D3500A05314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38C47C8929104D3500A05314 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		38C47C8C29104D3500A05314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38C47C8E29104D3900A05314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C47C9129104D3900A05314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C47C9329104D3900A05314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C47C9B2910521600A05314 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38C47C9D291066A100A05314 /* yanfei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yanfei.jpg; sourceTree = "<group>"; };
+		A3FFA0BAD23E84D0E1A8422A /* Pods-NovaSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-NovaSnapchat/Pods-NovaSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
+		B76A28C04D24065138A5D7FC /* Pods_NovaSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovaSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1666A8FCD186ADBD773045F /* Pods-NovaSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaSnapchat.release.xcconfig"; path = "Target Support Files/Pods-NovaSnapchat/Pods-NovaSnapchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6339539993BC00F6FD8EBE28 /* Pods_NovaSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				38C47C8429104D3500A05314 /* NovaSnapchat */,
 				38C47C8329104D3500A05314 /* Products */,
+				959C294CC0099B56349BACFD /* Pods */,
+				E596103FE0B6A583EEC79D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,32 @@
 			children = (
 				38C47C8529104D3500A05314 /* AppDelegate.swift */,
 				38C47C8729104D3500A05314 /* SceneDelegate.swift */,
-				38C47C8929104D3500A05314 /* ViewController.swift */,
+				38C47C8929104D3500A05314 /* iniciarSesionViewController.swift */,
 				38C47C8B29104D3500A05314 /* Main.storyboard */,
 				38C47C8E29104D3900A05314 /* Assets.xcassets */,
+				38C47C9D291066A100A05314 /* yanfei.jpg */,
 				38C47C9029104D3900A05314 /* LaunchScreen.storyboard */,
 				38C47C9329104D3900A05314 /* Info.plist */,
+				38C47C9B2910521600A05314 /* GoogleService-Info.plist */,
 			);
 			path = NovaSnapchat;
+			sourceTree = "<group>";
+		};
+		959C294CC0099B56349BACFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFA0BAD23E84D0E1A8422A /* Pods-NovaSnapchat.debug.xcconfig */,
+				F1666A8FCD186ADBD773045F /* Pods-NovaSnapchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E596103FE0B6A583EEC79D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B76A28C04D24065138A5D7FC /* Pods_NovaSnapchat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38C47C9629104D3900A05314 /* Build configuration list for PBXNativeTarget "NovaSnapchat" */;
 			buildPhases = (
+				247AFC5E988481ACD08A68B1 /* [CP] Check Pods Manifest.lock */,
 				38C47C7E29104D3500A05314 /* Sources */,
 				38C47C7F29104D3500A05314 /* Frameworks */,
 				38C47C8029104D3500A05314 /* Resources */,
+				42F7C8982A9E2F4A3A7E6BB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +159,62 @@
 			files = (
 				38C47C9229104D3900A05314 /* LaunchScreen.storyboard in Resources */,
 				38C47C8F29104D3900A05314 /* Assets.xcassets in Resources */,
+				38C47C9E291066A100A05314 /* yanfei.jpg in Resources */,
 				38C47C8D29104D3500A05314 /* Main.storyboard in Resources */,
+				38C47C9C2910521700A05314 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		247AFC5E988481ACD08A68B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NovaSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F7C8982A9E2F4A3A7E6BB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovaSnapchat/Pods-NovaSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovaSnapchat/Pods-NovaSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovaSnapchat/Pods-NovaSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38C47C7E29104D3500A05314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C47C8A29104D3500A05314 /* ViewController.swift in Sources */,
+				38C47C8A29104D3500A05314 /* iniciarSesionViewController.swift in Sources */,
 				38C47C8629104D3500A05314 /* AppDelegate.swift in Sources */,
 				38C47C8829104D3500A05314 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		38C47C9729104D3900A05314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FFA0BAD23E84D0E1A8422A /* Pods-NovaSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +386,7 @@
 		};
 		38C47C9829104D3900A05314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1666A8FCD186ADBD773045F /* Pods-NovaSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
